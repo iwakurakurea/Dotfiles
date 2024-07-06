@@ -6,7 +6,7 @@ a terminal with support for a 'patched' nerdfont (`yay nerd font`)
 
 `eza` for enhanced `ls`
 
-[`starship`](starship.rs) for the terminal prompt
+[`starship`](https://starship.rs/) for the terminal prompt
 
 `tmux` and the third-party plugin [`tpm`](https://github.com/tmux-plugins/tpm)
 
