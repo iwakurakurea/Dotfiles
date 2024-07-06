@@ -13,4 +13,5 @@ alias lt='eza -lBhT --icons=always'
 alias lat='eza -lBhaT --icons=always'
 alias cls='clear'
 alias dir='eza --icons=always'
+lovesay meow
 eval "$(starship init bash)"
