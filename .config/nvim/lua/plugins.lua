@@ -24,4 +24,30 @@ return {
 		require("nvim-tree").setup {view = {side = "right"}}
 	  end,
 	},
+	{
+	  "yamatsum/nvim-cursorline",
+	  config = function()
+		require('nvim-cursorline').setup {
+		  cursorline = {
+			enable = true,
+			timeout = 1000,
+			number = false,
+		  },
+		  cursorword = {
+			enable = true,
+			min_length = 3,
+			hl = { underline = true },
+		  }
+		}
+	  end,
+	},
+	{
+	  "willothy/nvim-cokeline",
+	  dependencies = {
+		"nvim-lua/plenary.nvim",        -- Required for v0.4.0+
+		"nvim-tree/nvim-web-devicons", -- If you want devicons
+		--"stevearc/resession.nvim"       -- Optional, for persistent history
+	  },
+	  config = true
+	},
 }
