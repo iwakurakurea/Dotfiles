@@ -2,6 +2,8 @@
 
 `neovim`
 
+[`lovesay.rs`](https://github.com/dotzenith/lovesay.rs)
+
 a terminal with support for a 'patched' nerdfont (`yay nerd font`)
 
 `eza` for enhanced `ls`
