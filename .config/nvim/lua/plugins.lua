@@ -50,4 +50,24 @@ return {
 	  },
 	  config = true
 	},
+	{
+	  "utilyre/barbecue.nvim",
+	  name = "barbecue",
+	  version = "*",
+	  dependencies = {
+		"SmiteshP/nvim-navic",
+		"nvim-tree/nvim-web-devicons", -- optional dependency
+	  },
+	  opts = {
+		-- configurations go here
+	  },
+	},
+	{
+	  'nvim-telescope/telescope.nvim', tag = '0.1.8',
+      dependencies = { 'nvim-lua/plenary.nvim' }
+    },
+	{
+	  'alanfortlink/blackjack.nvim',
+	  dependencies = { 'nvim-lua/plenary.nvim' }
+	},
 }

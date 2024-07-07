@@ -4,8 +4,12 @@ require("config.lazy")
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+
 vim.cmd("colorscheme catppuccin-mocha")
 vim.cmd("set number")
+vim.cmd("set colorcolumn=72")
 vim.cmd("set shiftwidth=4")
 vim.cmd("set tabstop=4")
 vim.cmd("NvimTreeOpen")
+
+
