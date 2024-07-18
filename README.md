@@ -6,6 +6,10 @@
 
 a terminal with support for a 'patched' nerdfont (`yay nerd font`)
 
+`i3` window manager
+
+`kitty` terminal
+
 `eza` for enhanced `ls`
 
 [`starship`](https://starship.rs/) for the terminal prompt
