@@ -18,6 +18,8 @@ a terminal with support for a 'patched' nerdfont (`yay nerd font`)
 
 `rofi` application launcher
 
+`pass` for password management (useful for spotifyd/gospt config)
+
 `yay -S spotifyd gospt` for spotify
 
 `pulseaudio` and `amixer` for audio
