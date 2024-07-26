@@ -1,0 +1,12 @@
+general
+{
+	colors = true
+	interval = 5
+}
+
+order += time
+
+time
+{
+	format="󰃭 %A, %B %d //  %l:%M %p"
+}

@@ -6,11 +6,11 @@
 [[ $- != *i* ]] && return
 
 alias ls='eza --icons=always'
-alias grep='grep --color=auto'
-alias la='eza -lBha --icons=always'
-alias ll='eza -lBh --icons=always'
-alias lt='eza -lBhT --icons=always'
-alias lat='eza -lBhaT --icons=always'
+alias grep='rg -p'
+alias la='eza -lha --icons=always'
+alias ll='eza -lh --icons=always'
+alias lt='eza -lhT --icons=always'
+alias lat='eza -lhaT --icons=always'
 alias cls='clear'
 alias dir='eza --icons=always'
 lovesay meow
