@@ -1,0 +1,3 @@
+client_id: "101f5e9711c542e6af9ff4d75b797ba9"
+client_secret_cmd: "pass show spotify_secret"
+port: "8888"
