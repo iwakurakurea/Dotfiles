@@ -8,6 +8,8 @@ a terminal with support for a 'patched' nerdfont (`yay nerd font`)
 
 `i3` window manager
 
+`feh` and a `~/.fehrc` file for a desktop background
+
 `yay -S spotifyd gospt`
 
 `kitty` terminal
